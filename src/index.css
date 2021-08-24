@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');
+/* Google Fonts
+font-family: 'Quicksand', sans-serif; -> for titles
+font-family: 'Open Sans', sans-serif; -> for content
+*/
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+.navbar {
+  font-family: 'Quicksand', sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; /* vertical center */
+  max-width: 800px; /* without this max-width, the navbar would take up the entire screen */
+  margin: 0 auto; /* without the max-width, this would not center the element, because it is centering the entire flex box, which in this case would take up the entire screen */
+  border-bottom: 1px solid #f2f2f2; /* shorthand for width, style, color */
+}
+
+@media all and (max-width: 350px) {
+  .navbar {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+  .navbar h1 {
+    margin-right: auto !important;
+  }
+  .navbar .links {
+    margin-left: 0 !important;
+  }
+  .navbar a {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column wrap;
+    margin-left: 0 !important;
+    text-align: center;
+  }
+}
+
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar h1:hover {
+  /* color: #333; */
+  cursor: pointer;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.buttonlink {
+  color: white;
+  background-color: #f1356d; 
+  border-radius: 12px;
+  border:2px solid #f1356d
+}
+.buttonlink:hover {
+  background-color: white;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 800px;
+  margin: 40px auto; /* top and bottom 40px, left and right auto -> centers */
+  padding: 20px;
+}
+
+/* individual blogs on homepage */
+.blog-preview {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview h2 {
+  color: #f1356d;
+  font-family: Quicksand, sans-serif;
+}
+.blog-preview p {
+  text-indent: 15px;
+  overflow-wrap: break-word;
+}
+.blog-preview:hover {
+  box-shadow:1px 3px 5px lightgray;
+}
+.blogheader {
+  overflow-wrap: break-word;
+  flex-flow: row wrap;
+  /* flex-flow: row-reverse; */
+}
+.blogheader button:hover {
+  color: #333 !important;
+}
+@media all and (max-width: 350px) {
+  .blogheader {
+    /* On small screens, we are no longer using row direction but column */
+    flex-flow: column-reverse;
+  }
+}
+
+
+/* Create blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 5px;
+}
+.create input:focus, .create textarea:focus, .create select:focus {
+  outline: none;
+  border: 2px solid #f1356d; /* does not override atm */
+}
+.create textarea {
+  height: 300px;
+  resize: none;
+}
+.create button {
+  background-color: #f1356d;
+  color: white;
+  border: 2px solid #f1356d;
+  padding: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+}
+.create button:hover {
+  background-color: white;
+  color: #f1356d;
+  border: 2px solid #f1356d;
+}
+
+
+/* View individual blog post: BlogDetails.js */
+.blog-details button {
+  color: white;
+  background-color: #f1356d;
+  border: 2px solid #f1356d;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+}
+.blog-details button:hover {
+  background-color: white;
+  color: #f1356d;
+  border: 2px solid #f1356d;
+}

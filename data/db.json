@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "Mario's first blog!",
+      "body": "Volunteering your time; it pays you and your whole community fantastic dividends. Take your time. Speed will come later. There he comes. I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun than most people.\nAll kinds of happy little splashes. And maybe, maybe, maybe... Let's put some highlights on these little trees. The sun wouldn't forget them. All you have to do is let your imagination go wild.",
+      "author": "Mario",
+      "id": 1
+    },
+    {
+      "title": "Luigi's first blog!",
+      "body": "Volunteering your time; it pays you and your whole community fantastic dividends. Take your time. Speed will come later. There he comes. I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun than most people.\nAll kinds of happy little splashes. And maybe, maybe, maybe... Let's put some highlights on these little trees. The sun wouldn't forget them. All you have to do is let your imagination go wild.",
+      "author": "Luigi",
+      "id": 2
+    },
+    {
+      "title": "Yoshi's first blog!",
+      "body": "Volunteering your time; it pays you and your whole community fantastic dividends. Take your time. Speed will come later. There he comes. I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun than most people.\nAll kinds of happy little splashes. And maybe, maybe, maybe... Let's put some highlights on these little trees. The sun wouldn't forget them. All you have to do is let your imagination go wild.",
+      "author": "Yoshi",
+      "id": 3
+    },
+    {
+      "title": "Mario's Second Blog!",
+      "body": "Anyone can paint. The only thing worse than yellow snow is green snow. Brown is such a nice color. Trees cover up a multitude of sins. Even trees need a friend. We all need friends. It's all a game of angles.\n\nWe'll play with clouds today. Paint anything you want on the canvas. Create your own world. If you don't think every day is a good day - try missing a few. You'll see. I really recommend you use odorless thinner or your spouse is gonna run you right out into the yard and you'll be working by yourself. A beautiful little sunset. Let's build an almighty mountain.\n\nDon't be bashful drop me a line. Let's do that again. I'm gonna start with a little Alizarin crimson and a touch of Prussian blue Son of a gun. That's why I paint - because I can create the kind of world I want - and I can make this world as happy as I want it.\n\nDecide where your cloud lives. Maybe he lives right in here. You gotta think like a tree. You can do anything here. So don't worry about it. And maybe a little bush lives there. Everyone wants to enjoy the good parts - but you have to build the framework first.",
+      "author": "mario",
+      "id": 4
+    },
+    {
+      "title": "Luigi's Second Blog!",
+      "body": "Decide where your cloud lives. Maybe he lives right in here. You gotta think like a tree. You can do anything here. So don't worry about it. And maybe a little bush lives there. Everyone wants to enjoy the good parts - but you have to build the framework first.\n\nIf you do too much it's going to lose its effectiveness. How do you make a round circle with a square knife? That's your challenge for the day. We start with a vision in our heart, and we put it on canvas. Just a little indication. Just go back and put one little more happy tree in there.\n\nWork that paint. We artists are a different breed of people. We're a happy bunch. Anything you want to do you can do here.\n\nYou need to have a very firm paint to do this. If it's not what you want - stop and change it. Don't just keep going and expect it will get better. See there how easy that is. I like to beat the brush. A fan brush can be your best friend. Let's make some happy little clouds in our world.\n",
+      "author": "luigi",
+      "id": 5
+    }
+  ]
+}
